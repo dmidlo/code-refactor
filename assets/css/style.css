@@ -1,3 +1,8 @@
+:root {
+  --horiseon-element-bg-color: #0072bb;
+  --horiseon-text-color: #ffffff;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -12,8 +17,8 @@ header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-color: #2a607c;
-  color: #ffffff;
+  background-color: var(--horiseon-element-bg-color);
+  color: var(--horiseon-text-color);
 }
 
 header h1 {
@@ -22,7 +27,7 @@ header h1 {
 }
 
 header h1 .seo {
-  color: #383838;
+  color: #1b1b1b;
 }
 
 header nav {
@@ -43,7 +48,7 @@ header nav ul li {
 }
 
 a {
-  color: #ffffff;
+  color: var(--horiseon-text-color);
   text-decoration: none;
 }
 
@@ -85,22 +90,22 @@ p {
   width: 20%;
   height: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #2589bd;
+  background-color: var(--horiseon-element-bg-color);
 }
 
 .benefit-lead {
   margin-bottom: 32px;
-  color: #ffffff;
+  color: var(--horiseon-text-color);
 }
 
 .benefit-brand {
   margin-bottom: 32px;
-  color: #ffffff;
+  color: var(--horiseon-text-color);
 }
 
 .benefit-cost {
   margin-bottom: 32px;
-  color: #ffffff;
+  color: var(--horiseon-text-color);
 }
 
 .benefit-lead h3 {
@@ -141,8 +146,8 @@ p {
   padding: 50px;
   height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
+  background-color: var(--horiseon-element-bg-color);
+  color: var(--horiseon-text-color);
 }
 
 .online-reputation-management {
@@ -150,8 +155,8 @@ p {
   padding: 50px;
   height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
+  background-color: var(--horiseon-element-bg-color);
+  color: var(--horiseon-text-color);
 }
 
 .social-media-marketing {
@@ -159,8 +164,8 @@ p {
   padding: 50px;
   height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
+  background-color: var(--horiseon-element-bg-color);
+  color: var(--horiseon-text-color);
 }
 
 .search-engine-optimization img {
