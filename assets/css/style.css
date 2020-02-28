@@ -1,3 +1,17 @@
+/* 
+        Live Site: 
+            https://dmidlo.github.io/code-refactor/index.html 
+   
+        Code Repo: 
+            https://github.com/dmidlo/code-refactor 
+  
+        Issues & Explainations:
+            https://github.com/dmidlo/code-refactor/issues?utf8=%E2%9C%93&q=is%3Aissue
+            
+        Every Change I made w/ links to explainations:
+            https://github.com/dmidlo/code-refactor/commits/master
+ */
+
 :root {
   --horiseon-element-bg-color: #0072bb;
   --horiseon-text-color: #ffffff;
@@ -81,11 +95,30 @@ p {
   margin-left: 25px;
 }
 
+
+/* https://github.com/dmidlo/code-refactor/issues/23 */
 .services-container {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
   color: var(--horiseon-text-color);
+}
+
+.services-article {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: var(--horiseon-body-font-family);
+  background-color: var(--horiseon-element-bg-color);
+}
+
+.services-article img {
+  max-height: 200px;
+}
+
+.services-article h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
 .benefits-container {
@@ -113,23 +146,6 @@ p {
   display: block;
   margin: 10px auto;
   max-width: 150px;
-}
-
-.services-article {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: var(--horiseon-body-font-family);
-  background-color: var(--horiseon-element-bg-color);
-}
-
-.services-article img {
-  max-height: 200px;
-}
-
-.services-article h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
 }
 
 footer {
