@@ -1,6 +1,8 @@
 :root {
   --horiseon-element-bg-color: #0072bb;
   --horiseon-text-color: #ffffff;
+  --horiseon-bg-color: #d9dcd6;
+  --horiseon-logo-alt-color: #1b1b1b;
 }
 
 * {
@@ -10,7 +12,7 @@
 }
 
 body {
-  background-color: #d9dcd6;
+  background-color: var(--horiseon-bg-color);
 }
 
 header {
@@ -27,7 +29,7 @@ header h1 {
 }
 
 header h1 .seo {
-  color: #1b1b1b;
+  color: var(--horiseon-logo-alt-color);
 }
 
 header nav {
