@@ -3,6 +3,10 @@
   --horiseon-text-color: #ffffff;
   --horiseon-bg-color: #d9dcd6;
   --horiseon-logo-alt-color: #1b1b1b;
+  --horiseon-logo-font-family: "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  --horiseon-body-font-family: "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
 }
 
 * {
@@ -17,8 +21,7 @@ body {
 
 header {
   padding: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: var(--horiseon-logo-font-family);
   background-color: var(--horiseon-element-bg-color);
   color: var(--horiseon-text-color);
 }
@@ -36,7 +39,7 @@ header nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: var(--horiseon-body-font-family);
   font-size: 20px;
 }
 
@@ -92,13 +95,13 @@ p {
   float: right;
   width: 20%;
   height: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: var(--horiseon-body-font-family);
   background-color: var(--horiseon-element-bg-color);
   color: var(--horiseon-text-color);
 }
 
 .benefit-article {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .benefit-article h3 {
@@ -116,7 +119,7 @@ p {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: var(--horiseon-body-font-family);
   background-color: var(--horiseon-element-bg-color);
 }
 
@@ -132,8 +135,7 @@ p {
 footer {
   padding: 30px;
   clear: both;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: var(--horiseon-logo-font-family);
   text-align: center;
 }
 
