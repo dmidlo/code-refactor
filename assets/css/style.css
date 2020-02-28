@@ -82,6 +82,7 @@ p {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
+  color: var(--horiseon-text-color);
 }
 
 .benefits-container {
@@ -147,7 +148,6 @@ p {
   height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: var(--horiseon-element-bg-color);
-  color: var(--horiseon-text-color);
 }
 
 .online-reputation-management {
@@ -156,7 +156,6 @@ p {
   height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: var(--horiseon-element-bg-color);
-  color: var(--horiseon-text-color);
 }
 
 .social-media-marketing {
@@ -165,7 +164,6 @@ p {
   height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: var(--horiseon-element-bg-color);
-  color: var(--horiseon-text-color);
 }
 
 .search-engine-optimization img {
