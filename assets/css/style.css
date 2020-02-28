@@ -21,7 +21,7 @@ header h1 {
 }
 
 header h1 .seo {
-    color: #d9dcd6;
+    color: #383838;
 }
 
 header nav {
@@ -70,13 +70,13 @@ p {
     margin-left: 25px;
 }
 
-.content {
+.services-container {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+.benefits-container {
     margin-right: 20px;
     padding: 20px;
     clear: both;
